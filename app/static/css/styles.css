@@ -14,12 +14,8 @@
 #carded{
     border-radius:6px; 
     background-color: rgb(241, 241, 241);
-    width: 300px;
-    height: 350px;
-}
-.card-body{
-    width: 300px;
-    height: 350px;
+    width: auto;
+    height: auto;
 }
 #posts{
     color: rgb(255, 255, 255);
