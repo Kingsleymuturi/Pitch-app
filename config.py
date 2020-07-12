@@ -6,7 +6,7 @@ from instance.config import DATABASE_URL, MAIL_USERNAME, MAIL_PASSWORD, SECRET_K
 class Config:
     SQLALCHEMY_DATABASE_URI = DATABASE_URL
     SQLALCHEMY_TRACK_MODIFICATIONS=True
-    SECRET_KEY= SECRET_KEY
+    SECRET_KEY= SECRET_KEY 
     UPLOADED_PHOTOS_DEST ='app/static/photos'
     MAIL_SERVER = 'smtp.gmail.com'
     MAIL_PORT = 465
@@ -19,6 +19,7 @@ class ProdConfig(Config):
     SQLALCHEMY_DATABASE_URI = DATABASE_URL
 
 class DevConfig(Config):
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://postgres:#Saintropez1@localhost/pitch'
     DEBUG = True
 
 config_options = {
