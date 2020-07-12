@@ -19,7 +19,7 @@ class ProdConfig(Config):
     SQLALCHEMY_DATABASE_URI = DATABASE_URL
 
 class DevConfig(Config):
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://postgres:#Saintropez1@localhost:5432/pitch'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://postgres:#Saintropez1@localhost/pitch'
     DEBUG = True
 
 config_options = {
