@@ -14,9 +14,8 @@
 #carded{
     border-radius:6px; 
     background-color: rgb(241, 241, 241);
-    width: 290px;
-    height: 350px;
-    padding: 3%;
+    width: auto;
+    height: auto;
 }
 #posts{
     color: rgb(255, 255, 255);
