@@ -14,7 +14,7 @@ This app enables users to view various pitches from other people and also create
 ## Access
 * Click this link to access the web app https://kings-pitch.herokuapp.com/
 * You should see something similar to the following image:
-![Pitch-app](app/templates/photos/pitch.jpg)
+![Pitch-app](app/templates/photos/{729FF2D4-62E1-4D5C-8D5E-448537CE9D7D}.png.jpg)
 
 ## How to run the application locally
 To get the code..
