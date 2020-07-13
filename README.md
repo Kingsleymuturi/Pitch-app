@@ -12,9 +12,9 @@ This project was generated with [Python](https://github.com/python) version 3.7.
 ## Description of functionality:
 This app enables users to view various pitches from other people and also create an account to be able to submit their own pitches if they wish.
 ## Access
-* Click this link to access the web app https://kingsley-pitchapp.glitch.me/
+* Click this link to access the web app https://kings-pitch.herokuapp.com/
 * You should see something similar to the following image:
-![Pitch-app](app/pitch.jpg)
+![Pitch-app](app/templates/photos/pitch.jpg)
 
 ## How to run the application locally
 To get the code..
